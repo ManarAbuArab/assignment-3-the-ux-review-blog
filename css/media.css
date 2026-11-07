@@ -1,0 +1,554 @@
+/* * Tablet Start */
+@media screen and (min-width: 768px) {
+
+    /* * Navbar Start */
+    .navbar .container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 12px 20px;
+        position: fixed;
+        top: 15px;
+        left: 0;
+        right: 0;
+        width:  90%;
+        margin: auto;
+        z-index: 9999;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 10px;
+    }
+
+    .nav-btn {
+        flex-shrink: 0;
+        padding: 9px 14px;
+        font-size: 10px;
+    }
+    /* * Navbar End */
+
+
+    /* * Hero Start */
+    .hero {
+        padding: 60px 0 55px;
+    }
+
+    .hero .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 35px;
+    }
+
+    .hero-content {
+        width: 50%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-image {
+        width: 48%;
+    }
+
+    .hero-image > img {
+        height: 250px;
+    }
+    /* * Hero End */
+
+
+    /* * Articles Start */
+    .articles-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .articles-main {
+        width: 68%;
+    }
+
+    .articles-sidebar {
+        width: 32%;
+        gap: 20px;
+    }
+
+    .article-card {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        padding: 14px;
+    }
+
+    .article-image {
+        width: 24%;
+        flex-shrink: 0;
+    }
+
+    .article-image > img {
+        height: 100px;
+    }
+
+    .article-info {
+        flex: 1;
+    }
+
+    .article-info h3 {
+        font-size: 15px;
+    }
+
+    .article-info > p {
+        font-size: 11px;
+    }
+
+    .article-meta {
+        gap: 8px;
+    }
+
+    .article-meta span {
+        font-size: 8px;
+    }
+
+    .sidebar-box {
+        padding: 15px;
+    }
+
+    .sidebar-box h3 {
+        font-size: 17px;
+    }
+
+    .trending-item h4 {
+        font-size: 10px;
+    }
+
+    .category-item {
+        font-size: 10px;
+    }
+    /* * Articles End */
+
+
+    /* * Authors Start */
+    .authors-content {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 18px;
+    }
+
+    .author-card {
+        width: calc((100% - 36px) / 3);
+        padding: 20px 12px;
+    }
+
+    .author-img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .author-card h3 {
+        font-size: 17px;
+    }
+
+    .author-role {
+        font-size: 10px;
+    }
+
+    .author-card > p {
+        font-size: 10px;
+    }
+    /* * Authors End */
+
+
+    /* * Community Start */
+    .community-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .community-info {
+        width: 50%;
+    }
+
+    .testimonials {
+        width: 50%;
+    }
+
+    .community-info > h3 {
+        font-size: 20px;
+    }
+
+    .community-benefits li {
+        font-size: 11px;
+    }
+
+    .testimonial-card > p {
+        font-size: 11px;
+    }
+    /* * Community End */
+
+
+    /* * Footer Start */
+    .footer-content {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .footer-about {
+        width: 40%;
+    }
+
+    .footer-links {
+        width: 20%;
+    }
+
+    .footer-newsletter {
+        width: 40%;
+    }
+
+    .footer-about .img-logo {
+        width: 45px;
+        height: 45px;
+        padding: 12px;
+    }
+
+    .footer-logo {
+        font-size: 18px;
+    }
+
+    .footer-about > p,
+    .footer-newsletter > p {
+        font-size: 12px;
+    }
+
+    .footer-links h3,
+    .footer-newsletter h3 {
+        font-size: 17px;
+    }
+
+    .footer-links a {
+        font-size: 11px;
+    }
+
+    .footer-newsletter form {
+        gap: 12px;
+    }
+
+    .footer-newsletter input {
+        padding: 13px;
+    }
+
+    .subscribe-btn {
+        padding: 13px;
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-bottom p {
+        font-size: 11px;
+    }
+
+    .footer-bottom > div {
+        gap: 15px;
+    }
+
+    .footer-bottom a {
+        font-size: 10px;
+    }
+    /* * Footer End */
+
+}
+/* * Tablet End */
+
+
+/* * Desktop Start */
+@media screen and (min-width: 1024px) {
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+
+    /* * Navbar Start */
+    .navbar {
+        padding: 12px 0;
+    }
+
+    .navbar .container {
+        padding: 12px 25px;
+        border-radius: 14px;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .nav-links img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .nav-btn {
+        padding: 11px 18px;
+        font-size: 12px;
+    }
+    /* * Navbar End */
+
+
+    /* * Hero Start */
+    .hero {
+        padding:120px 0 65px;
+    }
+
+    .hero .container {
+        gap: 50px;
+    }
+
+    .hero-content {
+        width: 48%;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+    }
+
+    .hero-content > p {
+        font-size: 15px;
+    }
+
+    .hero-image {
+        width: 48%;
+    }
+
+    .hero-image > img {
+        height: 300px;
+    }
+    /* * Hero End */
+
+
+    /* * Articles Start */
+    .articles-content {
+        gap: 30px;
+    }
+
+    .articles-main {
+        width: 68%;
+    }
+
+    .articles-sidebar {
+        width: 32%;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .article-card {
+        gap: 18px;
+        padding: 15px;
+    }
+
+    .article-image {
+        width: 22%;
+    }
+
+    .article-image > img {
+        height: 105px;
+    }
+
+    .article-info h3 {
+        font-size: 16px;
+    }
+
+    .article-info > p {
+        font-size: 12px;
+    }
+
+    .article-meta {
+        gap: 12px;
+    }
+
+    .article-meta span {
+        font-size: 9px;
+    }
+
+    .sidebar-box {
+        padding: 18px;
+    }
+
+    .sidebar-box h3 {
+        font-size: 19px;
+    }
+
+    .trending-item h4 {
+        font-size: 12px;
+    }
+
+    .trending-item p {
+        font-size: 9px;
+    }
+
+    .category-item {
+        padding: 10px;
+        font-size: 11px;
+    }
+    /* * Articles End */
+
+
+    /* * Authors Start */
+    .authors-content {
+        gap: 25px;
+    }
+
+    .author-card {
+        padding: 25px 18px;
+    }
+
+    .author-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .author-card h3 {
+        font-size: 20px;
+    }
+
+    .author-role {
+        font-size: 11px;
+    }
+
+    .author-card > p {
+        font-size: 12px;
+    }
+    /* * Authors End */
+
+
+    /* * Community Start */
+    .community-content {
+        gap: 45px;
+    }
+
+    .community-info,
+    .testimonials {
+        width: 50%;
+    }
+
+    .community-info > h3,
+    .testimonials > h3 {
+        font-size: 22px;
+    }
+
+    .community-description {
+        font-size: 14px;
+    }
+
+    .community-benefits li {
+        font-size: 13px;
+    }
+
+    .testimonial-card > p {
+        font-size: 13px;
+    }
+    /* * Community End */
+
+
+    /* * Footer Start */
+    .footer {
+        padding: 50px 0 30px;
+    }
+
+    .footer-content {
+        gap: 35px;
+    }
+
+    .footer-about {
+        width: 40%;
+    }
+
+    .footer-links {
+        width: 20%;
+    }
+
+    .footer-newsletter {
+        width: 40%;
+    }
+
+    .footer-about .img-logo {
+        width: 60px;
+        height: 60px;
+        padding: 18px;
+    }
+
+    .footer-logo {
+        font-size: 24px;
+    }
+
+    .footer-about > p,
+    .footer-newsletter > p {
+        font-size: 15px;
+    }
+
+    .footer-links h3,
+    .footer-newsletter h3 {
+        font-size: 22px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .footer-newsletter input {
+        padding: 18px;
+        font-size: 15px;
+    }
+
+    .subscribe-btn {
+        padding: 18px;
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        margin-top: 45px;
+        padding-top: 35px;
+        border-top-width: 4px;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
+
+    .footer-bottom > div {
+        gap: 25px;
+    }
+
+    .footer-bottom a {
+        font-size: 13px;
+    }
+    /* * Footer End */
+
+}
+/* * Desktop End */
